@@ -6,6 +6,7 @@
       Check if third-level nav exists on each parent link.
     {% endcomment %}
     {%- assign three_level_nav = false -%}
+    
     {% if link.links != blank %}
       {% if link.levels == 2 %}
         {%- assign three_level_nav = true -%}
