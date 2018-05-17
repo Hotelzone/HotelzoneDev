@@ -1,6 +1,6 @@
 {
   "current": {
-    "color_text": "#3d4246",
+    "color_text": "#fcfcfc",
     "color_body_text": "#788188",
     "color_sale_text": "#7796a8",
     "color_borders": "#e8e9eb",
@@ -9,11 +9,11 @@
     "color_small_button": "#fff",
     "color_small_button_text": "#3d4246",
     "color_text_field": "#fff",
-    "color_text_field_text": "#000",
+    "color_text_field_text": "#ffffff",
     "color_image_overlay_text": "#fff",
     "color_image_overlay": "#3d4246",
     "image_overlay_opacity": 25,
-    "color_body_bg": "#fff",
+    "color_body_bg": "#000000",
     "type_header_family": "Google_Work+Sans_600_sans",
     "type_header_base_size": "26px",
     "type_base_family": "Google_Work+Sans_400_sans",
@@ -23,15 +23,15 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_twitter_link": "twitter.com",
+    "social_facebook_link": "facebook.com",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "Instagram.com",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "",
+    "social_youtube_link": "youtube.com",
     "social_vimeo_link": "",
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon": "",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -62,125 +62,240 @@
           "color_text": "#ff0000"
         }
       },
-      "hero": {
-        "type": "hero",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/pruebaHeroHZ.jpg",
-          "alignment": "center",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "hero_size": "large",
-          "text_size": "large",
-          "button_label": "",
-          "button_link": ""
-        }
-      },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slideshow-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/pruebaHeroHZ.jpg",
-              "alignment": "top",
-              "title": "",
-              "subheading": "",
-              "link": ""
-            }
-          },
-          "slideshow-1": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/alexander-videnov-30631-unsplash.jpg",
-              "alignment": "top",
-              "title": "",
-              "subheading": "",
-              "link": ""
-            }
-          },
-          "1525208494256": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/photo-1506664453913-f326aa81f54d.jpg",
-              "alignment": "top",
-              "title": "",
-              "subheading": "",
-              "link": ""
-            }
-          },
-          "1525208500887": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/thought-catalog-344189-unsplash.jpg",
-              "alignment": "top",
-              "title": "",
-              "subheading": "",
-              "link": ""
-            }
-          },
-          "1525208504318": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/jared-rice-388264-unsplash.jpg",
-              "alignment": "top",
-              "title": "",
-              "subheading": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slideshow-0",
-          "slideshow-1",
-          "1525208494256",
-          "1525208500887",
-          "1525208504318"
-        ],
-        "settings": {
-          "autoplay": true,
-          "autoplay_speed": "6000",
-          "slideshow_height": "medium",
-          "text_size": "large"
-        }
-      },
       "featured-collections": {
         "type": "collection",
         "settings": {
-          "title": "Featured collection",
+          "title": "Ofertas",
           "collection": "frontpage",
           "grid": 3,
-          "rows": 2,
+          "rows": 1,
           "show_vendor": false,
-          "show_view_all": false
-        }
-      },
-      "feature-row": {
-        "type": "feature-row",
-        "settings": {
-          "image": "",
-          "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "show_view_all": true
         }
       },
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_linklist": "footer",
-          "footer_linklist_two": "",
-          "footer_newsletter_enable": false,
-          "show_payment_icons": false
+          "footer_linklist": "main-menu",
+          "footer_linklist_two": "redes-sociales",
+          "footer_newsletter_enable": true,
+          "show_payment_icons": true
+        }
+      },
+      "1525906242078": {
+        "type": "hero",
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "hero_size": "x-small",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1525969093779": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/beach-sunset.jpg",
+          "alignment": "bottom",
+          "title": "",
+          "text": "",
+          "hero_size": "large",
+          "text_size": "medium",
+          "button_label": "reserva ahora!",
+          "button_link": "shopify:\/\/products\/breathless-cabo-san-lucas-resort-and-spa-all-inclusive-botella-de-vino"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": "4",
+          "rows": "2",
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "1526481696106": {
+        "type": "hero",
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "hero_size": "x-small",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1526481792814": {
+        "type": "image-bar",
+        "blocks": {
+          "1526481792814-0": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center",
+              "link": "http:\/\/www.google.com",
+              "cta_label": ""
+            }
+          },
+          "1526481792814-1": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1526481792814-2": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1526482064055": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1526481792814-0",
+          "1526481792814-1",
+          "1526481792814-2",
+          "1526482064055"
+        ],
+        "settings": {
+          "section_height": "small"
+        }
+      },
+      "1526482143026": {
+        "type": "hero",
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "hero_size": "x-small",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1526482216752": {
+        "type": "quotes",
+        "blocks": {
+          "1526482216752-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1526482216752-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1526482216752-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "1526482216752-0",
+          "1526482216752-1",
+          "1526482216752-2"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
+      },
+      "1526482238040": {
+        "type": "hero",
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "hero_size": "x-small",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1526482283287": {
+        "type": "logo-bar",
+        "blocks": {
+          "1526482283287-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1526482283287-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1526482283287-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "1526482283287-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1526482283287-0",
+          "1526482283287-1",
+          "1526482283287-2",
+          "1526482283287-3"
+        ],
+        "settings": {
+          "title": "NUESTROS SOCIOS"
         }
       }
     },
     "content_for_index": [
-      "slideshow",
-      "hero",
+      "1525969093779",
+      "1526481696106",
       "featured-collections",
-      "feature-row"
+      "1525906242078",
+      "1526481792814",
+      "1526482143026",
+      "1526482216752",
+      "1526482238040",
+      "1526482283287"
     ]
   },
   "presets": {
