@@ -66,7 +66,7 @@ sections/feature-row.liquid:
 sections/featured-blog.liquid:
   development: 2018-05-06T19:36:32-05:00   9a1edbe837a0e23ee0b4aa7e024db613
 sections/featured-product.liquid:
-  development: 2018-05-06T19:36:32-05:00   9c2cd13b0e7e12c4468426c6119eb30e
+  development: 2018-05-23T15:50:12-05:00   9c2cd13b0e7e12c4468426c6119eb30e
 sections/footer.liquid:
   development: 2018-05-16T18:23:45-05:00   939e85769cfbee12c485cb6d6096bed7
 sections/header.liquid:
@@ -90,7 +90,7 @@ sections/password-footer.liquid:
 sections/password-header.liquid:
   development: 2018-05-06T19:36:32-05:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2018-05-06T19:36:32-05:00   853bdabfc292b2038d7932c35f9e78cd
+  development: 2018-05-23T15:51:48-05:00   eefc8ffedd5bdce580ffb31c6f2c0e1e
 sections/quotes.liquid:
   development: 2018-05-06T19:36:32-05:00   b234ffff9a061befe87a0d69a121af1c
 sections/rich-text.liquid:
