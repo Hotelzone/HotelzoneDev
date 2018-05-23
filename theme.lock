@@ -70,7 +70,7 @@ sections/featured-product.liquid:
 sections/footer.liquid:
   development: 2018-05-16T18:23:45-05:00   939e85769cfbee12c485cb6d6096bed7
 sections/header.liquid:
-  development: 2018-05-12T11:29:48-05:00   84668b4f3febaaae6268abf9f3033280
+  development: 2018-05-17T19:02:45-05:00   851d86410da62df2f041efc98fc7ba23
 sections/hero.liquid:
   development: 2018-05-06T19:36:32-05:00   d45cf37312b64d6e7511bdba56256758
 sections/image-bar.liquid:
