@@ -50,7 +50,7 @@ sections/article-template.liquid:
 sections/blog-template.liquid:
   development: 2018-05-06T19:36:31-05:00   5757170836346c1082ffba4ef408857e
 sections/cart-template.liquid:
-  development: 2018-05-06T19:36:31-05:00   f07185af88ed866aaf60d6567f794269
+  development: 2018-05-30T15:41:33-05:00   3d238560c5f35b2a7fa488d135e3bcd1
 sections/collection-list.liquid:
   development: 2018-05-06T19:36:31-05:00   a55d61b95ff71917adad276c41ee1dc0
 sections/collection-template.liquid:
@@ -90,7 +90,7 @@ sections/password-footer.liquid:
 sections/password-header.liquid:
   development: 2018-05-06T19:36:32-05:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2018-05-23T15:51:48-05:00   eefc8ffedd5bdce580ffb31c6f2c0e1e
+  development: 2018-05-29T16:21:40-05:00   858ae46c5e4277ea371654b3d9e358f4
 sections/quotes.liquid:
   development: 2018-05-06T19:36:32-05:00   b234ffff9a061befe87a0d69a121af1c
 sections/rich-text.liquid:
@@ -99,6 +99,8 @@ sections/slideshow.liquid:
   development: 2018-05-06T19:36:33-05:00   d3893fcfad1a8f70966ec8222b7ba4a5
 snippets/bgset.liquid:
   development: 2018-05-06T19:36:35-05:00   85889bbc39b57621f32fad66317366fc
+snippets/booking-form.liquid:
+  development: 2018-05-29T16:20:56-05:00   bb30957f186d6d8fa855a7c5eb0d7747
 snippets/collection-grid-item.liquid:
   development: 2018-05-06T19:36:35-05:00   209c8abd3531c95e503636cc520dd9ca
 snippets/comment.liquid:

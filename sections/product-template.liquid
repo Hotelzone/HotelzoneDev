@@ -143,6 +143,8 @@
 
         <div class="product-single__description rte" itemprop="description">
           {% include 'tabbed-description' %}
+          
+
         </div>
         
           <form action="/cart/add" method="post" enctype="multipart/form-data" class="product-form product-form-{{ section.id }}{% unless section.settings.show_variant_labels %} product-form--hide-variant-labels{% endunless %}" data-section="{{ section.id }}">
@@ -180,6 +182,8 @@
               </div>
             {% endif %}
 
+            {% include 'booking-form' %}
+      
             <div class="product-form__item product-form__item--submit">
               <button type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if product.options.size == 1 and product.variants[0].title == 'Default Title' %} product-form__cart-submit--small{% endif %}">
                 <span id="AddToCartText-{{ section.id }}">

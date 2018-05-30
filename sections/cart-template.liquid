@@ -89,7 +89,16 @@
                 <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0" class="btn btn--small btn--secondary cart__remove medium-up--hide">{{ 'cart.general.remove' | t }}</a>
                 <div class="cart__qty">
                   <label for="updates_{{ item.key }}" class="cart__qty-label">{{ 'cart.label.quantity' | t }}</label>
-                  <input class="cart__qty-input" type="number" name="updates[]" id="updates_{{ item.key }}" value="{{ item.quantity }}" min="0" pattern="[0-9]*">
+                  {% comment %}codigo original{% endcomment %}
+                  {% comment %}<input class="cart__qty-input" type="number" name="updates[]" id="updates_{{ item.key }}" value="{{ item.quantity }}" min="0" pattern="[0-9]*">{% endcomment %}
+                  {% comment %}Bookthatapp inicio{% endcomment %}
+                  {% if item.product.metafields.bookthatapp.config %}
+                    {{ item.quantity }}
+                    <input type="hidden" name="updates[{{item.key}}]" id="updates_{{ item.key }}" value="{{ item.quantity }}"/>
+                  {% else %}
+                    <input type="text" size="4" name="updates[{{item.key}}]" id="updates_{{ item.key }}" value="{{ item.quantity }}"/>
+                  {% endif %}
+                  {% comment %}Bookthatapp fin{% endcomment %}
                 </div>
                 <input type="submit" name="update" class="btn btn--small cart__update medium-up--hide" value="{{ 'cart.general.update' | t }}">
               </td>
